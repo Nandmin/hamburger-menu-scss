@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: gray;
+    box-shadow: 0 0 10px #aaa;
+    display: flex;
+    justify-content: center;
+}
+
+nav div {
+    align-items: flex-start;
+    display: flex;
+    // elemek sorrendjét megcseréli
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+// ha legalább 40em széles a screen (640px), akkor a navdiv center
+@media screen and (min-width: 40em){
+    nav div {
+        align-items: center;
+    }
+}

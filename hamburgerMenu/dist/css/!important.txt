@@ -1,0 +1,10 @@
+SCSS install: npm install -g sass
+
+scss készítés: sass miből készítse (útvonal+file) hova és mi legyen a neve
+    pl: sass D:\GitHub\SCSS\hamburgerMenu\src\scss\style.scss D:\GitHub\SCSS\hamburgerMenu\dist\css\style.css
+
+css módosítás után újra kell forsítani
+a map file látni fogja a forrásfile-t is
+
+css automata készítés: sass --watch D:\GitHub\SCSS\hamburgerMenu\src\scss\style.scss D:\GitHub\SCSS\hamburgerMenu\dist\css\style.css
+
