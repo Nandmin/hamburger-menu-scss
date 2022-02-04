@@ -46,7 +46,7 @@ nav div ul li {
 nav div ul li a {
   color: #222;
   display: block;
-  list-style: 1rem;
+  line-height: 1rem;
   padding: 1rem;
   text-decoration: none;
 }

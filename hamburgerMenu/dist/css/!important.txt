@@ -8,3 +8,6 @@ a map file látni fogja a forrásfile-t is
 
 css automata készítés: sass --watch D:\GitHub\SCSS\hamburgerMenu\src\scss\style.scss D:\GitHub\SCSS\hamburgerMenu\dist\css\style.css
 
+scss sandbox: sassmeister.com
+
+nesting: egymásba ágyazás
