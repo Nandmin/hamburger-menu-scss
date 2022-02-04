@@ -29,3 +29,7 @@ $color = red;
 color: green !global
 }
 a color értéke innét már green
+
+összefűzés 
+content: #("vmi" + "vhol")
+a # miatt az "" nem lesznek figyelembe véve. Eredmény: vmivhol
