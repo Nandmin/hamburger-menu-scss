@@ -13,3 +13,19 @@ scss sandbox: sassmeister.com
 nesting: egymásba ágyazás
 4-5 mélységnél mélyebb, nagyobb beágyazás nem ajánlott, nehezebb lesz a kód áttekinthetősége
 
+map: váltoó, kulcs-érték párokat tartalmaz
+
+változók:
+$változóNeve pl. $variable-new: red;
+globális hatókörű, ha nem {}ben van létrehozva
+
+HA {}-on belül kerül létrehozásra, akkor a változó értéke csak azon belül érhető el 
+
+globális változó módosítása {}-on belül
+pl
+$color = red;
+
+{
+color: green !global
+}
+a color értéke innét már green
