@@ -33,3 +33,9 @@ a color értéke innét már green
 összefűzés 
 content: #("vmi" + "vhol")
 a # miatt az "" nem lesznek figyelembe véve. Eredmény: vmivhol
+
+importnál nem kell az _ megadni
+@use ugyanaz, mint az import, csak saját namespace-t hoz létre
+// a $ helyett az "értéket" kell használni pl. colors.nav....
+// use esetén a namespact az as-zel át is lehet nevezni
+// as * használata esetén elég .-ot használni hivatkozáskor

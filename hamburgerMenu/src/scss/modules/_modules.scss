@@ -1,0 +1,5 @@
+// több modul egy file-be importálunk, majd utána a másik file-be csak ezt az egyet hívjuk be
+// így csak 1 namespace lesz
+
+@forward 'colors';
+@forward 'normalize';
