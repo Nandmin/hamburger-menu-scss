@@ -11,3 +11,5 @@ css automata készítés: sass --watch D:\GitHub\SCSS\hamburgerMenu\src\scss\sty
 scss sandbox: sassmeister.com
 
 nesting: egymásba ágyazás
+4-5 mélységnél mélyebb, nagyobb beágyazás nem ajánlott, nehezebb lesz a kód áttekinthetősége
+
